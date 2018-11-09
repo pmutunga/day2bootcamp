@@ -1,0 +1,56 @@
+/* I will use the same styling as the class activity */
+body {
+    background-color: #efeee7;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background:#333333;
+    }
+
+h1{
+    color:#eee;
+    font-size:28px;
+    margin: 2px; 
+    padding: 15px;
+    text-align: center;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+/* Styling the top nav */
+
+.topnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* This helped me keep the top nav at the top - and got the h1 on a separate line*/
+    background-color:grey;
+}
+
+.topnav li {
+    float: left;
+}
+
+.topnav li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav li a:hover:not(.active) {
+    color: #111;
+    background: #efeee7;
+}
+
+.active {
+    background-color: #4CAF50;
+}

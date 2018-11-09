@@ -1,0 +1,30 @@
+/* Styling the top nav */
+
+.topnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* This helped me keep the top nav at the top - and got the h1 on a separate line*/
+    background-color:grey;
+}
+
+.topnav li {
+    float: left;
+}
+
+.topnav li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav li a:hover:not(.active) {
+    color: #111;
+    background: #efeee7;
+}
+
+.active {
+    background-color: #4CAF50;
+}
